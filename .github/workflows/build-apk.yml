@@ -39,7 +39,7 @@ jobs:
         run: gradle wrapper --gradle-version 8.11.1 --distribution-type bin
 
       - name: Compile debug APK
-        run: ./gradlew --no-daemon --stacktrace assembleDebug
+        run: sh ./gradlew --no-daemon --stacktrace assembleDebug
 
       - name: Upload debug APK
         uses: actions/upload-artifact@v4
