@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ChronoDeck</string>
+    <string name="widget_description">Mały widżet osi czasu z aktualnym wydarzeniem i przyciskami sterowania</string>
+</resources>
